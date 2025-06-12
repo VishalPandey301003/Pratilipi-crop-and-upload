@@ -13,7 +13,7 @@
 
   const targetWidth = 800;
   const cropHeight = 1000;
-  const maxSliceSize = 1.4 * 1024 * 1024; // 1.5 MB in bytes
+  const maxSliceSize = 1.4 * 1024 * 800; // 1.5 MB in bytes
 
   function addButton() {
     const label = document.querySelector("label.custom-file-label");
